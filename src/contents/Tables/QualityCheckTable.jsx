@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import data from "../../../qualitycheck.json"
 
-const QualityCheckDisplay = ({ data }) => {
+const QualityCheckDisplay = () => {
   return (
     <div className="container mx-auto p-6 lg:p-12">
       <div className="flex items-center justify-between bg-yellow-200 rounded-lg p-4 lg:p-6 mb-6">
-        <Link to="/" className="text-blue-500">
+        <Link to="/" className="text-blue-500 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 inline-block mb-2 mr-2"

@@ -4,7 +4,7 @@ import tabledata from "../../../tabledata.json"
 
 const RightTable = () => {
   return (
-    <div className="w-1/5 h-screen bg-red-200">
+    <div className="w-1/5 h-full">
         <TableView data={tabledata}/>
     </div>
   );

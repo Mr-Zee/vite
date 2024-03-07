@@ -4,7 +4,7 @@ import tabledata from "../../../tabledata.json"
 
 const LeftTable = () => {
     return (
-      <div className="w-1/5 h-screen bg-blue-200">
+      <div className="w-1/5 h-full">
         <TableView data={tabledata}/>
       </div>
     );

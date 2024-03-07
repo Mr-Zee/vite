@@ -43,7 +43,7 @@ const TableView = ({ data }) => {
   };
 
   const handleRowClick = (row) => {
-    return "/";
+    return "/data";
   };
 
   return (
@@ -52,7 +52,7 @@ const TableView = ({ data }) => {
         Leads & Contacts
       </h1>
       <div className="shadow-md rounded-lg overflow-x-auto">
-        <table className="table-auto w-full border-collapse border border-gray-200 bg-white cursor-pointer">
+        <table className="table-auto w-full border-collapse border border-gray-200 bg-yellow-300 cursor-pointer">
           <thead>
             <tr className="bg-grey-200 border-b border-gray-300 ">
               {Object.keys(data[0]).map((column, index) => (
