@@ -7,7 +7,7 @@ const Card = () => {
       <span className="flex justify-center items-center w-full text-3xl font-bold mb-20">Oppertunity Hunter</span>
 
     <div
-      className={`w-96 h-30 rounded-3xl overflow-hidden shadow-lg bg-yellow-300 mx-2 my-2 flex items-center justify-center`}
+      className={`w-96 h-30 rounded-3xl overflow-hidden shadow-lg bg-yellow-300 mx-2 my-2 flex items-center hover:shadow-yellow-500 justify-center`}
     >
       <div className="px-6 py-4">
         <div className="flex items-center justify-center" >
@@ -16,16 +16,16 @@ const Card = () => {
       </div>
     </div>
     <div
-      className={`w-96 h-30 rounded-3xl overflow-hidden shadow-lg bg-yellow-300 mx-2 my-2 flex items-center justify-center`}
+      className={`w-96 h-30 rounded-3xl overflow-hidden shadow-lg bg-yellow-300 mx-2 my-2 flex hover:shadow-yellow-500 items-center justify-center`}
     >
       <div className="px-6 py-4">
         <div className="flex items-center justify-center" >
-          <div className="text-2xl font-bold">Dashboard</div>
+          <div className="text-2xl font-bold">History</div>
         </div>
       </div>
     </div>
     <div
-      className={`w-96 h-80 rounded-3xl overflow-hidden shadow-lg bg-yellow-300 mx-2 my-2 `}
+      className={`w-96 h-80 rounded-3xl overflow-hidden shadow-lg shadow-yellow-200 hover:shadow-yellow-500 bg-white mx-2 my-2 `}
     >
       <div className="px-6 py-4">
         <div className="flex items-center justify-center" >
@@ -34,11 +34,11 @@ const Card = () => {
       </div>
     </div>
     <div
-      className={`w-96 h-80 rounded-3xl overflow-hidden shadow-lg bg-yellow-300 mx-2 my-2 `}
+      className={`w-96 h-80 rounded-3xl overflow-hidden shadow-lg shadow-yellow-200 hover:shadow-yellow-500 mx-2 my-2 `}
     >
       <div className="px-6 py-4">
         <div className="flex items-center justify-center" >
-          <div className="text-2xl font-bold">History</div>
+          <div className="text-2xl font-bold">Details</div>
         </div>
       </div>
     </div>

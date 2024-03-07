@@ -48,9 +48,6 @@ const TableView = ({ data }) => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4 text-center ">
-        Leads & Contacts
-      </h1>
       <div className="shadow-md rounded-lg overflow-x-auto">
         <table className="table-auto w-full border-collapse border border-gray-200 bg-yellow-300 cursor-pointer">
           <thead>
