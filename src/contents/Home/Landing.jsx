@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './Home'
 
-const HomeLayout = () => {
+const Landing = () => {
   return (
     <div>
        <Home />
@@ -9,4 +9,4 @@ const HomeLayout = () => {
   )
 }
 
-export default HomeLayout
+export default Landing
