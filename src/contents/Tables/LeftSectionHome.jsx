@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import "./scroll.css"
-import data from "../../../tabledata.json"
+import "./scroll.css";
 
-const TableView = ( ) => {
+const LeftTableView = ({ data }) => {
   const [sortConfig, setSortConfig] = useState({ key: null, direction: "asc" });
 
   const customOrder = ["just now", "min", "hour"];
@@ -44,7 +43,7 @@ const TableView = ( ) => {
   };
 
   const handleRowClick = (row) => {
-    return "/data";
+    return "/leads";
   };
 
   return (
@@ -53,20 +52,17 @@ const TableView = ( ) => {
         <table className="table-auto w-full border-collapse border border-gray-200 bg-yellow-300 cursor-pointer">
           <thead>
             <tr className="bg-grey-200 border-b border-gray-300 ">
-              {Object.keys(data[0]).map((column, index) => (
-                <th
-                  key={index}
-                  className="px-4 py-2 text-left text-gray-700 "
-                  onClick={() => handleSort(column)}
-                >
-                  {column}
-                  {sortConfig.key === column && (
-                    <span className="ml-1">
-                      {sortConfig.direction === "asc" ? "↑" : "↓"}
-                    </span>
-                  )}
-                </th>
-              ))}
+              <th
+                className="px-4 py-2 text-left text-gray-700 "
+                onClick={() => handleSort("Leads")}
+              >
+                Leads
+                {sortConfig.key === "Leads" && (
+                  <span className="ml-1">
+                    {sortConfig.direction === "asc" ? "↑" : "↓"}
+                  </span>
+                )}
+              </th>
             </tr>
           </thead>
         </table>
@@ -87,11 +83,9 @@ const TableView = ( ) => {
                   }
                 }}
               >
-                {Object.keys(row).map((column, index) => (
-                  <td key={index} className="px-4 py-2">
-                    {row[column]}
-                  </td>
-                ))}
+                <td key={index} className="px-4 py-2" title={`${row.name}, ${row.Contacts}`}>
+                  {row.Leads}
+                </td>
               </tr>
             ))}
           </tbody>
@@ -111,4 +105,4 @@ function validateAndHandleRedirectUrl(redirectUrl) {
   return redirectUrl;
 }
 
-export default TableView;
+export default LeftTableView;

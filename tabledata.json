@@ -1,11 +1,14 @@
 [
     {
        
-        "Leads": "lead name"
+        "Leads": "Company a",
+        "name":"abc",
+        "Contacts": "+91 9900221122"
     },
     {
-       
-        "Leads": "lead name"
+        "Leads": "Company b",
+        "name":"abc",
+        "Contacts": "+91 9900221122"
     },
     {
        

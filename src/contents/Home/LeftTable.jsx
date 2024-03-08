@@ -1,11 +1,11 @@
 import React from 'react'
-import TableView from '../Tables/TableView';
 import tabledata from "../../../tabledata.json"
+import LeftTableView from '../Tables/LeftSectionHome';
 
 const LeftTable = () => {
     return (
       <div className="w-1/5 h-full">
-        <TableView data={tabledata}/>
+        <LeftTableView data={tabledata}/>
       </div>
     );
   };
