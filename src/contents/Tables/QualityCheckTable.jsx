@@ -90,10 +90,16 @@ const QualityCheckDisplay = () => {
         <div className="w-full lg:w-1/4 grid grid-cols-1 h-80 gap-6 ms-2">
           <div className="bg-gray-100 rounded-lg shadow-md border border-gray-300 p-4">
             <div className="container flex justify-center rounded-lg bg-blue-400 py-4">
-              <h2 className="font-medium text-white"> Activity Feed</h2>
+              <h2 className="font-medium text-white"> POC Details</h2>
             </div>
             <p className="font-normal text-gray-500 pt-3 text-center">
-              No engagement with this company yet
+             CEO : CEO Name
+            </p>
+            <p className="font-normal text-gray-500 pt-3 text-center">
+             HR : HR Name
+            </p>
+            <p className="font-normal text-gray-500 pt-3 text-center">
+             Manager: Manager Name
             </p>
           </div>
         </div>
