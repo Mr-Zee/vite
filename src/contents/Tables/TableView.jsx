@@ -71,7 +71,7 @@ const TableView = ( ) => {
           </thead>
         </table>
       </div>
-      <div className="custom-scrollbar" style={{ maxHeight: "580px", overflowY: "scroll" }}>
+      <div className="custom-scrollbar" style={{ maxHeight: "520px", overflowY: "scroll" }}>
         <table className="table-auto w-full border-collapse border border-gray-200 bg-white cursor-pointer">
           <tbody>
             {sortedData.map((row, index) => (

@@ -47,7 +47,7 @@ const LeftTableView = ({ data }) => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-4">
       <div className="shadow-md rounded-lg overflow-x-auto">
         <table className="table-auto w-full border-collapse border border-gray-200 bg-yellow-300 cursor-pointer">
           <thead>
@@ -67,7 +67,7 @@ const LeftTableView = ({ data }) => {
           </thead>
         </table>
       </div>
-      <div className="custom-scrollbar" style={{ maxHeight: "580px", overflowY: "scroll" }}>
+      <div className="custom-scrollbar" style={{ maxHeight: "520px", overflowY: "scroll" }}>
         <table className="table-auto w-full border-collapse border border-gray-200 bg-white cursor-pointer">
           <tbody>
             {sortedData.map((row, index) => (

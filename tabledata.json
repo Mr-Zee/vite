@@ -3,16 +3,22 @@
        
         "Leads": "Company a",
         "name":"abc",
-        "Contacts": "+91 9900221122"
+        "Contacts": "+91 9900221122",
+        "email":"abc@gmail"
+
     },
     {
         "Leads": "Company b",
         "name":"abc",
-        "Contacts": "+91 9900221122"
+        "Contacts": "+91 9900221122",
+        "email":"xyz@gmail"
     },
     {
        
-        "Leads": "lead name"
+        "Leads": "lead name",
+        "name":"rgf",
+        "Contacts": "+91 9900221122",
+        "email":"xyz@mail"
     },
     {
        

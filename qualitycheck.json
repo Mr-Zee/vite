@@ -1,129 +1,37 @@
 {
   "qualityCheck": {
-    "id": "QC-0134/WO-BRI-5313",
-    "status": "QC In Progress",
+    "id": "1",
+    "c_name": "Company A",
+    "status": " ABC",
     "workOrder": {
-      "number": "BRI UAE-J7775-01-24",
       "date": "31-01-2024"
     },
     "sign": {
-      "type": "Letter 1.01",
-      "quantity": 1
+      "type": " Banking Finance",
+      "quantity": " 1 M"
     },
     "project": {
-      "number": "BRI UAE-J7775-01-24",
+      "number": "11-22",
       "partialOrFull": "Full",
       "name": "Test 15"
     },
     "checks": [
-      
         {
-          "category": "Letter Moduling",
+          "category": "Contact Details",
           "items": [
             {
-              "Depth": "Depth of Material",
-              "Surface": "Surface Finish",
-              "Edges": "Edges and Side Finish",
-              "Quantity": "Quantity",
-              "Workmanship": "Workmanship"
+              "HR": "+91 123234",
+              "Mobile": "+91 123234",
+              "Business": "+91 123234",
+              "Mail": "Abc@gmail"
             }
           ]
         },
         {
-          "category": "METAL FABRICATION",
+          "category": "Location",
           "items": [
             {
-              "Material": "Material Type / Size",
-              "Stretcheral": "Stretcheral Support",
-              "Surface": "Surface Finish",
-              "Quantity": "Quantity",
-              "Fixing": "Fixing Methods & Assembly"
-            }
-          ]
-        },
-
-        {
-          "category": "CNC LASER  CUTTING",
-          "items": [
-            {
-              "Material": "Material Specification",
-              "Cutting": "Workmanship",
-              "Quantity": "Quantity"
-            }
-          ]
-        },
-        {
-          "category": "PAINTING",
-          "items": [
-            {
-              "Surface": "Powder Coating Coat",
-              "Workmanship": "Workmanship"
-            }
-          ]
-        },
-        {
-          "category": "VINLY / GRAPHICS / SCREENPRINTING",
-          "items": [
-            {
-              "Colour": "Surface Finish",
-              "Quantity": "Quantity",
-              "Workmanship": "Workmanship"
-            }
-          ]
-        },
-        {
-          "category": "ACRYLIC",
-          "items": [
-            {
-              "Material": "Material Specification",
-              "Surface": "Surface Finish",
-              "Quantity": "Quantity",
-              "Fixing": "Fixing Methods & Assembly",
-              "Workmanship": "Workmanship"
-            }
-          ]
-        },
-        {
-          "category": "ELECTRICALS",
-          "items": [
-            {
-              "Material": "Material Specification",
-              "Surface": "Surface Finish",
-              "Quantity": "Quantity",
-              "Fixing": "Fixing Methods & Assembly",
-              "Workmanship": "Workmanship"
-            }
-          ]
-        },
-        {
-          "category": "Polishing",
-          "items": [
-            {
-              "LED": "LED Brand",
-              "KELVIN": "KELVIN temperature & illumination",
-              "Verify": "Verify Electrical Components",
-              "Visual": "Visual Checkup (Dark spots)",
-              "Quantity": "Quantity"
-            }
-          ]
-        },
-        {
-          "category": "PACKAGING",
-          "items": [
-            {
-              "Surface": "Surface Finish",
-              "Workmanship": "Workmanship"
-            }
-          ]
-        },
-        {
-          "category": "OUTSOURCED & FIXING MATERIALS",
-          "items": [
-            {
-              "Cleaning": "Cleaning",
-              "Physical": "Physical Damages",
-              "Quantity": "Quantity",
-              "Workmanship": "Workmanship"
+              "Address": "1st street infopark"
             }
           ]
         }
