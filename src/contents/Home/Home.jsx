@@ -5,7 +5,7 @@ import LO from "../../../leadsandopp.json";
 
 const Home = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-70 bg-yellow-100">
+    <div className="flex flex-col items-center justify-center h-screen bg-yellow-100">
       <h1 className="text-3xl font-bold mb-8">Opportunity Hunter</h1>
       <div className="flex w-full max-w-7xl p-8 space-x-8 bg-white rounded-lg shadow-lg">
         <div className="w-1/3">
@@ -16,10 +16,10 @@ const Home = () => {
         </div>
         <div className="w-2/3 flex flex-col justify-center space-y-8">
         <div
-        className={` h-30 rounded-3xl overflow-hidden shadow-lg bg-yellow-300 mx-2 my-2 flex items-center hover:shadow-yellow-500 justify-center`}
+        className={`cursor-pointer h-30 rounded-3xl overflow-hidden shadow-lg bg-yellow-300 mx-2 my-2 flex items-center hover:shadow-yellow-500 justify-center`}
       >
-        <div className="px-6 py-4">
-          <div className="flex items-center justify-center">
+        <div className="px-6 py-4 ">
+          <div className="flex items-center justify-center ">
             <div className="text-2xl font-bold">Dashboard</div>
           </div>
         </div>
