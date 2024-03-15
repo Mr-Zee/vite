@@ -67,13 +67,13 @@ const LeftTableView = ({ data }) => {
           </thead>
         </table>
       </div>
-      <div className="custom-scrollbar" style={{ maxHeight: "520px", overflowY: "scroll" }}>
+      <div className="custom-scrollbar" style={{ maxHeight: "450px", overflowY: "scroll" }}>
         <table className="table-auto w-full border-collapse border border-gray-200 bg-white cursor-pointer">
           <tbody>
             {sortedData.map((row, index) => (
               <tr
                 key={index}
-                className="border-b border-gray-200 hover:bg-gray-100"
+                className="border-b border-gray-200 hover:bg-yellow-200"
                 onClick={() => {
                   const redirectUrl = validateAndHandleRedirectUrl(
                     handleRowClick(row)

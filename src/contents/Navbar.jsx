@@ -3,7 +3,7 @@ const NavBar = () => {
   return (
     <nav className="flex items-center justify-between bg-yellow-300 px-6 py-2">
       <div className="flex items-center">
-      <a href="/" className="text-grey font-extrabold text-lg">RFP</a>
+      <a href="/" className="text-grey font-extrabold text-4xl">RFP</a>
       </div>
 
       <div className="flex items-center">

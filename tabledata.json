@@ -2,21 +2,21 @@
     {
        
         "Leads": "Company a",
-        "name":"abc",
+        "address":"abc street india",
         "Contacts": "+91 9900221122",
         "email":"abc@gmail"
 
     },
     {
         "Leads": "Company b",
-        "name":"abc",
+        "address":"abc street india",
         "Contacts": "+91 9900221122",
         "email":"xyz@gmail"
     },
     {
        
         "Leads": "Company",
-        "name":"rgf",
+        "address":"rgf street india",
         "Contacts": "+91 9900221122",
         "email":"xyz@mail"
     },

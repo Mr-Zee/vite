@@ -4,7 +4,7 @@ import LeftTableView from '../Tables/LeftSectionHome';
 
 const LeftTable = () => {
     return (
-      <div className="w-1/5 h-full">
+      <div className="w-full">
         <LeftTableView data={tabledata}/>
       </div>
     );

@@ -1,0 +1,17 @@
+{
+    "leadsAndOpportunities": [
+      {
+        "company": "Company A",
+        "opportunities": 5
+      },
+      {
+        "company": "TCS",
+        "opportunities": 7
+      },
+      {
+        "company": "Infosys",
+        "opportunities": 9
+      }
+    ]
+  }
+  
