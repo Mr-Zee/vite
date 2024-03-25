@@ -1,11 +1,13 @@
-import React from 'react'
+// import React from 'react'
 import tabledata from "../../../tabledata.json"
-import LeftTableView from '../Tables/LeftSectionHome';
+// import LeftTableView from '../Tables/LeftSectionHome';
+import LeftHome from '../Tables/LeftHome';
 
 const LeftTable = () => {
     return (
-      <div className="w-full">
-        <LeftTableView data={tabledata}/>
+      <div >
+        {/* <LeftTableView data={tabledata}/> */}
+        <LeftHome data={tabledata}/>
       </div>
     );
   };
