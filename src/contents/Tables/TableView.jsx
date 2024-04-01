@@ -48,9 +48,9 @@ const TableView = ( ) => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 ">
       <div className="shadow-md rounded-lg overflow-x-auto">
-        <table className="table-auto w-full border-collapse border border-gray-200 bg-yellow-300 cursor-pointer">
+        <table className="table-auto  w-full border-collapse border border-gray-200 bg-yellow-300 cursor-pointer">
           <thead>
             <tr className="bg-grey-200 border-b border-gray-300 ">
               {Object.keys(data[0]).map((column, index) => (
@@ -72,12 +72,12 @@ const TableView = ( ) => {
         </table>
       </div>
       <div className="custom-scrollbar" style={{ maxHeight: "520px", overflowY: "scroll" }}>
-        <table className="table-auto w-full border-collapse border border-gray-200 bg-white cursor-pointer">
+        <table className="table-auto w-full border-collapse border border-gray-200 bg-white/60 cursor-pointer">
           <tbody>
             {sortedData.map((row, index) => (
               <tr
                 key={index}
-                className="border-b border-gray-200 hover:bg-gray-100"
+                className="border-b border-gray-200 hover:bg-gray-200"
                 onClick={() => {
                   const redirectUrl = validateAndHandleRedirectUrl(
                     handleRowClick(row)

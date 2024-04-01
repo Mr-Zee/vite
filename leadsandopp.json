@@ -1,17 +1,24 @@
 {
-    "leadsAndOpportunities": [
-      {
-        "company": "Company A",
-        "opportunities": 5
-      },
-      {
-        "company": "TCS",
-        "opportunities": 7
-      },
-      {
-        "company": "Infosys",
-        "opportunities": 9
-      }
-    ]
-  }
-  
+  "leadsAndOpportunities": [
+    { "company": "Company A", "opportunities": "Project Manager" },
+    { "company": "TCS", "opportunities": "Dev Ops Engineer" },
+    { "company": "Infosys", "opportunities": "Data Analysts" },
+    { "company": "Accenture", "opportunities": "Data Engineer" },
+    { "company": "Infosys", "opportunities": "Manager I" },
+    { "company": "Infosys", "opportunities": "Sn Developer" },
+    { "company": "Company", "opportunities": "Tester" },
+    { "company": "Google", "opportunities": "Software Engineer" },
+    { "company": "Microsoft", "opportunities": "Product Manager" },
+    { "company": "Amazon", "opportunities": "Cloud Architect" },
+    { "company": "Facebook", "opportunities": "UI/UX Designer" },
+    { "company": "Apple", "opportunities": "iOS Developer" },
+    { "company": "Intel", "opportunities": "Hardware Engineer" },
+    { "company": "IBM", "opportunities": "Business Analyst" },
+    { "company": "Cisco", "opportunities": "Network Engineer" },
+    { "company": "Oracle", "opportunities": "Database Administrator" },
+    { "company": "Adobe", "opportunities": "Software Architect" },
+    { "company": "Uber", "opportunities": "Data Scientist" },
+    { "company": "Airbnb", "opportunities": "Full Stack Developer" },
+    { "company": "Netflix", "opportunities": "Machine Learning Engineer" }
+  ]
+}

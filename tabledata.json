@@ -14,110 +14,163 @@
         "email":"xyz@gmail"
     },
     {
-       
         "Leads": "Company",
         "address":"rgf street india",
         "Contacts": "+91 9900221122",
         "email":"xyz@mail"
     },
     {
-       
-        "Leads": "Company"
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
     },
     {
        
-        "Leads": "Company"
+        "Leads": "Jithu",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
     },
     {
        
-        "Leads": "Company"
+        "Leads": "Shine",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Jithu",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
     },
     {
        
-        "Leads": "Company"
+        "Leads": "Shine",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Jithu",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
+    },
+    {
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
     },
     {
        
-        "Leads": "Company"
+        "Leads": "Shine",
+        "address":"",
+        "Contacts": "",
+        "email":""
     },
     {
-       
-        "Leads": "Company"
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
     },
     {
-       
-        "Leads": "Jithu"
+        "Leads": "Jithu",
+        "address":"",
+        "Contacts": "",
+        "email":""
     },
     {
-       
-        "Leads": "Company"
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
     },
     {
-       
-        "Leads": "Company"
+        "Leads": "Company",
+        "address":"",
+        "Contacts": "",
+        "email":""
     },
     {
-       
-        "Leads": "Shine"
-    },
-    {
-       
-        "Leads": "Company"
-    },
-    {
-       
-        "Leads": "Jithu"
-    },
-    {
-       
-        "Leads": "Company"
-    },
-    {
-       
-        "Leads": "Company"
-    },
-    {
-       
-        "Leads": "Shine"
-    },
-    {
-       
-        "Leads": "Company"
-    },
-    {
-       
-        "Leads": "Jithu"
-    },
-    {
-       
-        "Leads": "Company"
-    },
-    {
-       
-        "Leads": "Company"
-    },
-    {
-       
-        "Leads": "Shine"
-    },
-    {
-       
-        "Leads": "Company"
-    },
-    {
-       
-        "Leads": "Jithu"
-    },
-    {
-       
-        "Leads": "Company"
-    },
-    {
-       
-        "Leads": "Company"
-    },
-    {
-       
-        "Leads": "Shine"
+        "Leads": "Shine",
+        "address":"",
+        "Contacts": "",
+        "email":""
     }
 ]
